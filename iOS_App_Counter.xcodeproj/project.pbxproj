@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EDAF6A4D2D6D9E820064A192 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EDAF6A4C2D6D9E7B0064A192 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ED705A342D6D907D004484AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		ED705A1D2D6D907B004484AD /* iOS_App_Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_App_Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED705A332D6D907D004484AD /* iOS_App_CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_App_CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED705A3D2D6D907D004484AD /* iOS_App_CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_App_CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAF6A4C2D6D9E7B0064A192 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		ED705A142D6D907B004484AD = {
 			isa = PBXGroup;
 			children = (
+				EDAF6A4C2D6D9E7B0064A192 /* README.md */,
 				ED705A1F2D6D907B004484AD /* iOS_App_Counter */,
 				ED705A362D6D907D004484AD /* iOS_App_CounterTests */,
 				ED705A402D6D907D004484AD /* iOS_App_CounterUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAF6A4D2D6D9E820064A192 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
